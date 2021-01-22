@@ -1,0 +1,74 @@
+nav {
+    background-color: black;
+    color:white;
+}
+/* aplica el estilo a toda la CLASE MENÚ */
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+/* aplica el estilo a la etiqueta LI que hace parte de la CLASE MENÚ. 
+no le aplica a otras etiquetas diferentes dentro del menú */
+.menu li {
+    width: 10%;
+    list-style: none;
+}
+
+/* aplica el estilo a la etiqueta A que hace parte de la CLASE MENÚ. TEXTO ESTÁTICO 
+no le aplica a otras etiquetas diferentes dentro del menú */
+.menu a{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    }
+
+/* aplica el estilo a la etiqueta A que hace parte de la CLASE MENÚ. TEXTO CAMBIANTE */
+.menu a:hover {
+    background-color: white;
+    border: 5px white solid;
+    border-radius: 50px;
+    color:black
+    }
+
+    /* aplica la division de 3 partes a toda la CLASE LOGO */
+.logo {
+    flex-grow: 3;
+    }
+
+    /* aplica estilo solo a la etiqueta IMG dentro de la clase LOGO */
+.logo img {
+    width: 10%;
+    padding: 1% 2% 1% 5%;
+    }
+
+
+    /* CLASE 4 - JUEVES 21 ENERO 2021*/
+/* MENU DESPLEGABLE*/
+
+#menu ul li {
+    margin: 0;
+    padding: 0;
+    float: left;
+    position: relative;
+}
+
+#menu ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: black;
+    padding: 0;
+    display: none;
+}
+
+#menu ul li:hover > ul {
+    display: block;
+}
+
+#menu ul ul li {
+    float: none;
+    margin-top: 10px;
+    width: 150px;
+
+}

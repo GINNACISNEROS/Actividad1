@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Contactenos</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='./css/estilos.css'>
+        <link rel='stylesheet' type='text/css' media='screen' href='./css/menu.css'>
+        <script src='main.js'></script>
+    </head>
+    <body> 
+        <nav>
+            <ul class="menu">
+                <li class=logo>
+                    <a href="#">
+                        <!--IMAGEN DEL LOGO -->
+                <img src="./img/logo.png">
+                    </a>
+                </li>
+                <li> <a href="./index.html">Inicio</a></li>
+                <li> <a href="./contactenos.html">Contáctenos</a> </li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <h1> FORMULARIO CONTÁCTENOS</h1>
+            <!--INICIA FORMULARIO-->
+            <div>
+                <form>
+                   <div class="section-flex">
+                       <div class="element-form">
+                            <div class="label">
+                                <label for="type"> Tipo de Mensaje  </label>
+                            </div> 
+                            <select id="type" name="type">
+                                <option value=""> Seleccione una opción</option>
+                                <option value="Cotización">  Cotización</option>
+                                <option value="Saludo"> Saludo</option>
+                                <option value="Queja"> Queja</option>
+                            </select>              
+                        </div>
+
+
+                        <div class="element-form">
+                            <div class="label">
+                                <label for="name"> Nombres</label>
+                            </div>
+                            <input type="text" id="name" name="name" placeholder="ingrese sus Nombres"               </form>
+                        </div>
+                        
+
+                        <div class="element-form">
+                            <div class="label">
+                                <label for="email"> Email</label>
+                            </div>
+                            <input type="text" id="email" name="email" placeholder="example@correo.com"         </form>
+                        </div>
+                        
+
+
+                        <div class="element-form" >
+                            <div class="label">
+                                <label for="celular"> Celular</label>
+                            </div>
+                            <input type="text" id="celular" name="celular" placeholder="Ingrese su celular"          </form>
+                        </div>
+                         
+
+
+                        <div class="element-form">
+                            <div class="label">
+                                <label for="comment"> Comentario </label>
+                            </div>
+                    
+                            <textarea id="comment" name="comment" placeholder="Ingrese su comentario">
+                            </textarea>
+                        </div>    
+
+                        <div class="btn-div">
+                            <buttom type="submit"> Enviar datos </buttom>
+                        </div>
+
+                        <!--
+                    <div class="element-form">
+                        <div>
+                            <label> ¿Que estudias? </label>
+                        </div>
+                        <input type="checkbox" id="chk1" name="chk1" value="html"> HTML 
+                        <input type="checkbox" id="chk2" name="chk2" value="css"> CSS  
+                        <input type="checkbox" id="chk3" name="chk3" value="php"> PHP 
+                    </div>
+
+                    <div class="element-form">
+                        <div>
+                            <label> ¿Que estudias? </label>
+                        </div>
+                        <input type="radio" id="radio 1" name="radio1" value="html"> HTML 
+                        <input type="radio" id="radio 2" name="radio2" value="css"> CSS  
+                        <input type="radio" id="radio 3" name="radio3" value="php"> PHP 
+                    </div>
+                -->
+
+                        
+                    </div>        
+            
+                </form>
+            </div>
+        <footer>
+            <p> Creado por Ginna Cisneros</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,109 @@
+/* el ASTERISCO aplica el estilo para el  todo */
+* {
+    margin:0px;
+    padding:0px;
+    font-family:'poiret one',cursive;
+}
+
+/* CLASE se representa con un punto  y la podemos mencionar con un nombre acorde. APLICA PARA TODOS*/
+.container {
+    margin-left: 5%;
+    margin-right:5%;
+    margin-top: 2%
+}
+
+/* ELEMENTO relaciona la ETIQUETA, y se escribe directamente sin simbolos previos. APLICA PARA TODOS. LUNES 18ENERO2021*/
+h1,
+h2 {
+    text-align:center;
+    font-family: fantasy,cursive;  
+}
+/*CLASE SECTION FLEX aplicada solo a linea SECTION. */
+.section-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*CLASE CHARACTER aplicada a cada uno de los ARTICLE. */ 
+.character {
+    width: 25%;
+    margin: 3%;
+    border: 2px #E6E6E6 solid;
+    border-right: 2px #E6E6E6 solid;
+    border-bottom: 2px #E6E6E6 solid;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* modifica el estilo de ETIQUETA IMG que hace parte de la CLASE CHARACTER */
+.character img {
+    width: 80%;
+    border-radius: 3%;
+}
+
+/* modifica el estilo de  CLASE INFO-CHARACTER , se ubica en el div para que aplique a todo el texto que esta dentro de*/
+.info-character {
+    text-align: justify;
+    padding: 3%;
+}
+
+/* aplica estilo solo a la ETIQUETA H2. APLICA A TODOS */
+h2 {
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+/* aplica estilo a ETIQUETA FOOTER. */
+footer {
+    background-color: black;
+    color: white;
+    height: 80px;
+    text-align: center; 
+}
+
+/* aplica estilo al texto del parrafo de ETIQUETA FOOTER. MARTES 19 ENERO 2021 */
+footer p {
+    padding-top: 2%;
+}
+
+
+/* *CLASE MIERCOLES 20 ENERO 2021 */
+/* *CSS DE NUESTRO FORMULARIO */
+form {
+    margin-left: 20%;
+    width: 80%;
+    text-align: left;
+    margin-top: 5%;
+}
+
+.element-form {
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.label {
+    width: 20%;
+    float: left;
+}
+
+.element-form input, 
+select,
+textarea {
+    width: 70%;
+    height: 30px;
+}
+
+.btn-div {
+    text-align: center;
+    width: 80%;
+    margin-bottom: 2%;
+}
+
+.btn-div button {
+background-color: blue;
+border: 5px blue;
+border-radius: 10px;
+height: 30px;
+font-weight: bold;
+}
+/*finish*/
